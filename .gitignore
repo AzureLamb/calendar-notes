@@ -1,0 +1,8 @@
+.storage/
+node_modules/
+*.log
+npm-debug.log*
+.env
+.env.*
+!.env.example
+start.vbs

@@ -1,0 +1,49 @@
+body {
+    background-color: rgb(240, 240, 240);
+    width: 100%;
+    margin: 32px;
+    display: flex;
+    gap: 12px;
+}
+
+#calendar-block {
+    width: 250px;
+}
+
+.calendar-content-behavior {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+}
+
+#calendar-nav-bar {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.calendar-day {
+    padding: 2px;
+    text-align: right;
+    cursor: pointer;
+}
+
+.current-month {
+    background-color: rgb(255, 202, 215);
+}
+
+.today {
+    border-bottom: 1px black solid;
+    padding-bottom: 0px;
+}
+
+#text-edit-area {
+    width: 355px;
+    height: 500px;
+}
+
+#not-assigned {
+    background-color: rgb(206, 206, 206);
+    text-align: center;
+}
