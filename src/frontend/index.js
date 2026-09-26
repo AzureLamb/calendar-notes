@@ -258,7 +258,7 @@ function isPast(year, month, day) {
     date.setFullYear(year);
     date.setMonth(month);
     date.setDate(day);
-    now.setHours(0, 0, 0, 0);
+    date.setHours(0, 0, 0, 0);
 
     return date.getTime() <= now.getTime();
 }
