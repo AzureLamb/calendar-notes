@@ -49,7 +49,6 @@ function initWebInterface() {
 
         let filename;
         //cheat for having a non used day.
-        console.log(filteredRequest);
         if (filteredRequest["year"]! == "2026" && filteredRequest["month"]! == "1" && filteredRequest["day"]! == "0") {
             filename = "Not Assigned"
         } else {
